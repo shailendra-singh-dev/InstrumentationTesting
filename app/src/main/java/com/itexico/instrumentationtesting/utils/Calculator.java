@@ -1,4 +1,4 @@
-package com.itexico.instrumentationtesting.androidjunitrunner;
+package com.itexico.instrumentationtesting.utils;
 
 /**
  * Created by iTexico Developer on 8/18/2016.

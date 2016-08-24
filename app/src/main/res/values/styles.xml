@@ -5,21 +5,21 @@
         <!-- Customize your theme here. -->
     </style>
 
-   <!-- <style name="Theme.EspressoTestTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        &lt;!&ndash; Primary Colour of the App Bar &ndash;&gt;
+    <style name="Theme.EspressoTestTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary Colour of the App Bar -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        &lt;!&ndash; Dark Primary Colour of the the theme &ndash;&gt;
+        <!-- Dark Primary Colour of the the theme -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        &lt;!&ndash; Accent colour of the Theme &ndash;&gt;
+        <!-- Accent colour of the Theme -->
         <item name="colorAccent">@color/colorAccent</item>
-        &lt;!&ndash; Primary Theme Text Colour &ndash;&gt;
+        <!-- Primary Theme Text Colour -->
         <item name="android:textColorPrimary">@color/primary_color_text</item>
-        &lt;!&ndash; Secondary Theme Text Colour &ndash;&gt;
+        <!-- Secondary Theme Text Colour -->
         <item name="android:textColorSecondary">@color/secondary_color_text</item>
     </style>
-    &lt;!&ndash; Base application theme. &ndash;&gt;
+    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -37,6 +37,6 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

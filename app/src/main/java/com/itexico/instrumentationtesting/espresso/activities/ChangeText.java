@@ -12,7 +12,7 @@ import com.itexico.instrumentationtesting.R;
 /**
  * Created by iTexico Developer on 8/22/2016.
  */
-public class ChangeTextActivity extends AppCompatActivity implements View.OnClickListener {
+public class ChangeText extends AppCompatActivity implements View.OnClickListener {
 
     // The TextView used to display the message inside the Activity.
     private TextView mTextView;
@@ -44,7 +44,7 @@ public class ChangeTextActivity extends AppCompatActivity implements View.OnClic
                 break;
             case R.id.text_change_new_activity:
                 // Second button's interaction: start an activity and send a message to it.
-                Intent intent = ShowTextActivity.newStartIntent(this, text);
+                Intent intent = ShowText.newStartIntent(this, text);
                 startActivity(intent);
                 break;
         }

@@ -11,4 +11,13 @@
     <string name="type_something">type something..</string>
     <string name="change_text">Change Text</string>
     <string name="text_change_new_activity">Open activity and change text</string>
+    <string name="type_text">Type Text</string>
+    <string name="spinner_selection">Spinner</string>
+    <string name="custom_list_adapter">Custom List Adapter</string>
+    <string name="search_view">SearchView</string>
+    <string name="actionbar">Action Bar</string>
+    <string name="view_pager">View Pager</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="recycler_view">RecyclerView</string>
+    <string name="date_time_pickers">Date and time picker dialog</string>
 </resources>

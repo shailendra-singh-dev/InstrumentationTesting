@@ -11,7 +11,7 @@ import com.itexico.instrumentationtesting.R;
 /**
  * Created by iTexico Developer on 8/22/2016.
  */
-public class ShowTextActivity extends AppCompatActivity {
+public class ShowText extends AppCompatActivity {
 
     // The name of the extra data sent through an {@link Intent}.
     public final static String KEY_EXTRA_MESSAGE =
@@ -31,14 +31,14 @@ public class ShowTextActivity extends AppCompatActivity {
     }
 
     /**
-     * Creates an {@link Intent} for {@link ShowTextActivity} with the message to be displayed.
+     * Creates an {@link Intent} for {@link ShowText} with the message to be displayed.
      *
      * @param context the {@link Context} where the {@link Intent} will be used
      * @param message a {@link String} with text to be displayed
-     * @return an {@link Intent} used to start {@link ShowTextActivity}
+     * @return an {@link Intent} used to start {@link ShowText}
      */
     static protected Intent newStartIntent(Context context, String message) {
-        Intent newIntent = new Intent(context, ShowTextActivity.class);
+        Intent newIntent = new Intent(context, ShowText.class);
         newIntent.putExtra(KEY_EXTRA_MESSAGE, message);
         return newIntent;
     }

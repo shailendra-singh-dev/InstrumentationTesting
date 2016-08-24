@@ -1,12 +1,11 @@
 package com.itexico.instrumentationtesting.espresso;
 
-import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.ActivityInstrumentationTestCase2;
 
 import com.itexico.instrumentationtesting.R;
-import com.itexico.instrumentationtesting.espresso.activities.ChangeTextActivity;
+import com.itexico.instrumentationtesting.espresso.activities.ChangeText;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -26,7 +25,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
  */
 
 @RunWith(AndroidJUnit4.class)
-@LargeTest
+//@LargeTest
 public class TextChangeBehaviourTest {
 
     private static final String STRING_TO_BE_TYPED = "Espresso Sample";
@@ -42,8 +41,8 @@ public class TextChangeBehaviourTest {
      * the {@link ActivityTestRule#getActivity()} method.
      */
     @Rule
-    public ActivityTestRule<ChangeTextActivity> mActivityRule = new ActivityTestRule<>(
-            ChangeTextActivity.class);
+    public ActivityTestRule<ChangeText> mActivityRule = new ActivityTestRule<>(
+            ChangeText.class);
 
     @Test
     public void textChangeSameActivity() {

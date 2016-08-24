@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itexico.instrumentationtesting.R;
+import com.itexico.instrumentationtesting.utils.Calculator;
 
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_main);
+        setContentView(R.layout.activity_calculator);
         mCalculator = new Calculator();
         mResultTextView = (TextView) findViewById(R.id.operation_result_text_view);
         mOperandOneEditText = (EditText) findViewById(R.id.operand_one_edit_text);
