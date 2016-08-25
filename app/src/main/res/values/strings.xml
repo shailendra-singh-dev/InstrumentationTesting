@@ -20,4 +20,8 @@
     <string name="dialogs">Dialogs</string>
     <string name="recycler_view">RecyclerView</string>
     <string name="date_time_pickers">Date and time picker dialog</string>
+    <string name="action_search">Search Countries</string>
+    <string name="search_suggestions">Search countries e.g. India, Mexico etc</string>
+    <string name="search_no_items_found">No items Found !!!</string>
+    <string name="search_hint">Search countries</string>
 </resources>

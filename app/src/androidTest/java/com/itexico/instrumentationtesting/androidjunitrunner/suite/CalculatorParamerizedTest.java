@@ -1,10 +1,9 @@
 package com.itexico.instrumentationtesting.androidjunitrunner.suite;
 
-//import android.support.test.filters.SmallTest;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.itexico.instrumentationtesting.utils.Calculator;
+import com.itexico.instrumentationtesting.espresso.utils.Calculator;
 
 import org.junit.Before;
 import org.junit.Test;

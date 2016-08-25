@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itexico.instrumentationtesting.R;
-import com.itexico.instrumentationtesting.utils.Calculator;
+import com.itexico.instrumentationtesting.espresso.utils.Calculator;
 
 import java.util.List;
 
