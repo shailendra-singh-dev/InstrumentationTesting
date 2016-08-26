@@ -24,4 +24,8 @@
     <string name="search_suggestions">Search countries e.g. India, Mexico etc</string>
     <string name="search_no_items_found">No items Found !!!</string>
     <string name="search_hint">Search countries</string>
+    <string name="toggle_action_mode">Toggle Action mode</string>
+    <string name="action_bar_item_notification">Notifications</string>
+    <string name="action_mode_search">Search here</string>
+    <string name="action_bar_item_share">Share</string>
 </resources>

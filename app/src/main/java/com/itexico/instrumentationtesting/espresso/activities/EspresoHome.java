@@ -20,6 +20,9 @@ public class EspresoHome extends AppCompatActivity {
         launchActivity(R.id.espresso_home_spinner_selection_button, SpinnerSelection.class);
         launchActivity(R.id.espresso_home_custom_list_adapter_button,CustomList.class);
         launchActivity(R.id.espresso_home_search_view_button,SearchView.class);
+        launchActivity(R.id.espresso_home_action_bar_button,ActionBar.class);
+        launchActivity(R.id.espresso_home_viewpager_button,FragmentViewPager.class);
+
     }
 
     private void launchActivity(final int buttonId, final Class cls) {

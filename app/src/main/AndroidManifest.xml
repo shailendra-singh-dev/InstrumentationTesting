@@ -33,6 +33,10 @@
                 android:resource="@xml/searchable" />
         </activity>
 
+        <activity android:name=".espresso.activities.ActionBar" />
+
+        <activity android:name=".espresso.activities.FragmentViewPager" />
+
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"
             android:authorities="com.itexico.instrumentationtesting.espresso.content_provider.authority" />

@@ -26,7 +26,7 @@ public class CustomListTest {
 
     public static final String EMPLOYEE_ID_STR = "22222";
     public static final int EMPLOYEE_ID_INT = 22222;
-    public static final String EMPLOYEE_NAME = "Emp_1";
+    public static final String EMPLOYEE_NAME = "John";
 
     @Rule
     public ActivityTestRule<CustomList> mActivityRule = new ActivityTestRule<>(

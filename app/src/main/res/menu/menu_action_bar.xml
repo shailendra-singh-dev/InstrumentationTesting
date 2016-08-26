@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".espresso.activities.ActionBar">
+    <item
+        android:id="@+id/action_bar_item_share"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_bar_item_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_bar_item_notification"
+        android:orderInCategory="100"
+        android:title="@string/action_bar_item_notification"
+        android:icon="@android:drawable/ic_notification_overlay"
+        app:showAsAction="never" />
+
+</menu>
