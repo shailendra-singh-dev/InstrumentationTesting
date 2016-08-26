@@ -38,6 +38,7 @@
         <activity android:name=".espresso.activities.FragmentViewPager" />
         <activity android:name=".espresso.activities.DialogDisplay" />
         <activity android:name=".espresso.activities.RecyclerViewActivity" />
+        <activity android:name=".espresso.activities.DateAndTimePicker" />
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"

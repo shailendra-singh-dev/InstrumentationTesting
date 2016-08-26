@@ -33,4 +33,6 @@
     <string name="dialog_message">This is the confirmation dialog to update TextView below.</string>
     <string name="dialog_negative_button_title">Cancel</string>
     <string name="dialog_positive_button_title">OK</string>
+    <string name="open_date_picker_dialog">Open Date Picker</string>
+    <string name="open_time_picker_dialog">Open time Picker</string>
 </resources>
