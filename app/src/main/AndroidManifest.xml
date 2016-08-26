@@ -36,6 +36,8 @@
         <activity android:name=".espresso.activities.ActionBar" />
 
         <activity android:name=".espresso.activities.FragmentViewPager" />
+        <activity android:name=".espresso.activities.DialogDisplay" />
+        <activity android:name=".espresso.activities.RecyclerViewActivity" />
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"

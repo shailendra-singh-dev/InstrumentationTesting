@@ -28,4 +28,9 @@
     <string name="action_bar_item_notification">Notifications</string>
     <string name="action_mode_search">Search here</string>
     <string name="action_bar_item_share">Share</string>
+    <string name="open_dialog">Open Dialog</string>
+    <string name="dialog_title">Altert dialog</string>
+    <string name="dialog_message">This is the confirmation dialog to update TextView below.</string>
+    <string name="dialog_negative_button_title">Cancel</string>
+    <string name="dialog_positive_button_title">OK</string>
 </resources>

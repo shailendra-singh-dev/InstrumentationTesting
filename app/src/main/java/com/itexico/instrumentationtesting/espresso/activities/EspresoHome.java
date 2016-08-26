@@ -22,6 +22,8 @@ public class EspresoHome extends AppCompatActivity {
         launchActivity(R.id.espresso_home_search_view_button,SearchView.class);
         launchActivity(R.id.espresso_home_action_bar_button,ActionBar.class);
         launchActivity(R.id.espresso_home_viewpager_button,FragmentViewPager.class);
+        launchActivity(R.id.espresso_home_dialogs_button,DialogDisplay.class);
+        launchActivity(R.id.espresso_home_recycler_view_button,RecyclerViewActivity.class);
 
     }
 
