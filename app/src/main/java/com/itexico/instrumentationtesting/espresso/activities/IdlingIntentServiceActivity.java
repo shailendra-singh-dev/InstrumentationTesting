@@ -27,7 +27,7 @@ public class IdlingIntentServiceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intent_service);
+        setContentView(R.layout.activity_idling_intent_service);
         final EditText mStatusEditText = (EditText) findViewById(R.id.repeat_service_edit_text);
         mStatusView = (TextView) findViewById(R.id.repeat_service_status);
         mLocalBroadcastManager = LocalBroadcastManager.getInstance(this);

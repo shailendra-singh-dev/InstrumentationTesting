@@ -44,4 +44,5 @@
     <string name="toggle_button_stop">Stop</string>
     <string name="elapsed_time">%1$.2f s</string>
     <string name="failure">1 Minute is not yet over !! </string>
+    <string name="loading_dialog_text">Done</string>
 </resources>

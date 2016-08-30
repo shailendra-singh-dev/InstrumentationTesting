@@ -22,7 +22,7 @@ public class IdlingElapsedTime extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_idling_elapded_time);
+        setContentView(R.layout.activity_idling_elapsed_time);
         mToggleButton = (Button) findViewById(R.id.toggle_button);
         mElapsedTime = (TextView) findViewById(R.id.elapsed_Time);
         mStatusView = (TextView) findViewById(R.id.result);
