@@ -50,4 +50,5 @@
     <string name="espresso_home_idling_resources_loading_dialog">Idling Resource- Loading dialog</string>
     <string name="custom_failure_handler_status">Custom failure handler</string>
     <string name="espresso_home_custom_failure">Custom Failure handler</string>
+    <string name="espresso_home_web_view">WebView</string>
 </resources>

@@ -41,9 +41,9 @@
         <activity android:name=".espresso.activities.IdlingElapsedTime" />
         <activity android:name=".espresso.activities.IdlingLoadingDialog" />
         <activity android:name=".espresso.activities.CustomFailureHandler" />
+        <activity android:name=".espresso.activities.WebViewActivity" />
 
         <service android:name=".espresso.service.RepeatIntentService" />
-
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"

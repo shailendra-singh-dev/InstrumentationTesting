@@ -89,6 +89,12 @@
             android:layout_height="wrap_content"
             android:text="@string/espresso_home_custom_failure" />
 
+        <Button
+            android:id="@+id/espresso_home_web_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/espresso_home_web_view" />
+
     </LinearLayout>
 
 </ScrollView>
