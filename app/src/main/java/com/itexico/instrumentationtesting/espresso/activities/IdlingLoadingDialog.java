@@ -10,7 +10,7 @@ import com.itexico.instrumentationtesting.espresso.fragments.LoadingDialogFragme
 /**
  * Created by iTexico Developer on 8/30/2016.
  */
-public class IdlingDialogActivity extends AppCompatActivity {
+public class IdlingLoadingDialog extends AppCompatActivity {
 
     private TextView mLoadingDialogStatus;
 

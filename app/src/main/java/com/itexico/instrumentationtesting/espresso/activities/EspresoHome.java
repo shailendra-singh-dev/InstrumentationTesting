@@ -27,6 +27,7 @@ public class EspresoHome extends AppCompatActivity {
         launchActivity(R.id.espresso_home_pickers_button, DateAndTimePicker.class);
         launchActivity(R.id.espresso_home_idling_resources_service, IdlingIntentServiceActivity.class);
         launchActivity(R.id.espresso_home_idling_resources_elapsed_time, IdlingElapsedTime.class);
+        launchActivity(R.id.espresso_home_idling_resources_loading_dialog, IdlingLoadingDialog.class);
     }
 
     private void launchActivity(final int buttonId, final Class cls) {

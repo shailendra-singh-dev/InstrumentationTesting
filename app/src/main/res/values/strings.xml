@@ -45,4 +45,7 @@
     <string name="elapsed_time">%1$.2f s</string>
     <string name="failure">1 Minute is not yet over !! </string>
     <string name="loading_dialog_text">Done</string>
+    <string name="loading_dialog_title">Loading</string>
+    <string name="loading_dialog_message">Please wait !!!</string>
+    <string name="espresso_home_idling_resources_loading_dialog">Idling Resource- Loading dialog</string>
 </resources>

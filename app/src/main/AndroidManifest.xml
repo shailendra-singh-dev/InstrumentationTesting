@@ -32,17 +32,17 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-
         <activity android:name=".espresso.activities.ActionBar" />
-
         <activity android:name=".espresso.activities.FragmentViewPager" />
         <activity android:name=".espresso.activities.DialogDisplay" />
         <activity android:name=".espresso.activities.RecyclerViewActivity" />
         <activity android:name=".espresso.activities.DateAndTimePicker" />
         <activity android:name=".espresso.activities.IdlingIntentServiceActivity" />
+        <activity android:name=".espresso.activities.IdlingElapsedTime" />
+        <activity android:name=".espresso.activities.IdlingLoadingDialog" />
 
         <service android:name=".espresso.service.RepeatIntentService" />
-        <activity android:name=".espresso.activities.IdlingElapsedTime" />
+
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"
