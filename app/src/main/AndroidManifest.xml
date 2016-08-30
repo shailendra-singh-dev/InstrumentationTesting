@@ -40,6 +40,7 @@
         <activity android:name=".espresso.activities.IdlingIntentServiceActivity" />
         <activity android:name=".espresso.activities.IdlingElapsedTime" />
         <activity android:name=".espresso.activities.IdlingLoadingDialog" />
+        <activity android:name=".espresso.activities.CustomFailureHandler" />
 
         <service android:name=".espresso.service.RepeatIntentService" />
 
