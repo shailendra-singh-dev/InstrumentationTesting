@@ -39,6 +39,10 @@
         <activity android:name=".espresso.activities.DialogDisplay" />
         <activity android:name=".espresso.activities.RecyclerViewActivity" />
         <activity android:name=".espresso.activities.DateAndTimePicker" />
+        <activity android:name=".espresso.activities.IdlingIntentServiceActivity" />
+
+        <service android:name=".espresso.service.RepeatIntentService" />
+        <activity android:name=".espresso.activities.IdlingElapsedTime" />
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"

@@ -18,14 +18,15 @@ public class EspresoHome extends AppCompatActivity {
         setContentView(R.layout.activity_espresso_home);
         launchActivity(R.id.espresso_home_type_text_button, ChangeText.class);
         launchActivity(R.id.espresso_home_spinner_selection_button, SpinnerSelection.class);
-        launchActivity(R.id.espresso_home_custom_list_adapter_button,CustomList.class);
-        launchActivity(R.id.espresso_home_search_view_button,SearchView.class);
-        launchActivity(R.id.espresso_home_action_bar_button,ActionBar.class);
-        launchActivity(R.id.espresso_home_viewpager_button,FragmentViewPager.class);
-        launchActivity(R.id.espresso_home_dialogs_button,DialogDisplay.class);
-        launchActivity(R.id.espresso_home_recycler_view_button,RecyclerViewActivity.class);
-        launchActivity(R.id.espresso_home_pickers_button,DateAndTimePicker.class);
-
+        launchActivity(R.id.espresso_home_custom_list_adapter_button, CustomList.class);
+        launchActivity(R.id.espresso_home_search_view_button, SearchView.class);
+        launchActivity(R.id.espresso_home_action_bar_button, ActionBar.class);
+        launchActivity(R.id.espresso_home_viewpager_button, FragmentViewPager.class);
+        launchActivity(R.id.espresso_home_dialogs_button, DialogDisplay.class);
+        launchActivity(R.id.espresso_home_recycler_view_button, RecyclerViewActivity.class);
+        launchActivity(R.id.espresso_home_pickers_button, DateAndTimePicker.class);
+        launchActivity(R.id.espresso_home_idling_resources_service, IdlingIntentServiceActivity.class);
+        launchActivity(R.id.espresso_home_idling_resources_elapsed_time, IdlingElapsedTime.class);
     }
 
     private void launchActivity(final int buttonId, final Class cls) {

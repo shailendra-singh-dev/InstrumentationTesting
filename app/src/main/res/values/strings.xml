@@ -35,4 +35,13 @@
     <string name="dialog_positive_button_title">OK</string>
     <string name="open_date_picker_dialog">Open Date Picker</string>
     <string name="open_time_picker_dialog">Open time Picker</string>
+    <string name="repeat_service">Repeat Service</string>
+    <string name="espresso_home_idling_resources_service">Idling Resources-Service</string>
+    <string name="espresso_home_idling_resources_elapsed_time">Idling Resources-Elapsed time</string>
+    <string name="instructions">Press start, wait for a Minute ,press Stop</string>
+    <string name="toggle_button_start">Start</string>
+    <string name="success">Yes you waited for a minute</string>
+    <string name="toggle_button_stop">Stop</string>
+    <string name="elapsed_time">%1$.2f s</string>
+    <string name="failure">1 Minute is not yet over !! </string>
 </resources>
