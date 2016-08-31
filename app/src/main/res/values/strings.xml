@@ -51,4 +51,6 @@
     <string name="custom_failure_handler_status">Custom failure handler</string>
     <string name="espresso_home_custom_failure">Custom Failure handler</string>
     <string name="espresso_home_web_view">WebView</string>
+    <string name="action_started_service_update_list">Update List </string>
+    <string name="espresso_home_junit4_rules">JUnit4 ServiceRule</string>
 </resources>
