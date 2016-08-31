@@ -7,11 +7,14 @@ package com.itexico.instrumentationtesting.junit4rules;
 
 import android.content.Intent;
 import android.support.test.InstrumentationRegistry;
+import android.support.test.rule.ActivityTestRule;
 import android.support.test.rule.ServiceTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.MediumTest;
 
-import com.itexico.instrumentationtesting.espresso.service.StartedService;
+import com.itexico.instrumentationtesting.R;
+import com.itexico.instrumentationtesting.espresso.activities.BoundServiceActivity;
+import com.itexico.instrumentationtesting.espresso.service.BoundService;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -20,6 +23,9 @@ import org.junit.runner.RunWith;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
 
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -35,30 +41,38 @@ import static org.junit.Assert.assertTrue;
  * finished.
  * <p/>
  * Note: This rule doesn't support {@link android.app.IntentService} because it's automatically
- * destroyed when {@link android.app.IntentService#onHandleIntent(android.content.Intent)} finishes
+ * destroyed when {@link android.app.IntentService#onHandleIntent(Intent)} finishes
  * all outstanding commands. So there is no guarantee to establish a successful connection
  * in a timely manner.
  */
 @MediumTest
 @RunWith(AndroidJUnit4.class)
-public class StartedServiceTest {
+public class BoundServiceTest {
+
+    @Rule
+    public ActivityTestRule<BoundServiceActivity> mActivityRule = new ActivityTestRule<>(
+            BoundServiceActivity.class);
 
     @Rule
     public final ServiceTestRule mServiceRule = new ServiceTestRule();
 
     @Test
-    public void startService() {
+    public void bindService() {
         // Create the service Intent.
         Intent serviceIntent =
-                new Intent(InstrumentationRegistry.getTargetContext(), StartedService.class);
+                new Intent(InstrumentationRegistry.getTargetContext(), BoundService.class);
+        BoundService.BoundServiceBinder boundServiceBinder =null;
         try {
-            mServiceRule.startService(serviceIntent);
+            boundServiceBinder = (BoundService.BoundServiceBinder) mServiceRule.bindService(serviceIntent);
         } catch (TimeoutException e) {
             e.printStackTrace();
         }
         //get service instance.
-        final StartedService startedService = StartedService.getInstance();
-        List<String> list = startedService.getUpdatedList();
+
+        onView(withId(R.id.action_started_service_update_list_button)).perform(click());
+
+        final BoundService boundService = boundServiceBinder.getService();
+        List<String> list = boundService.getUpdatedList();
         assertTrue("ServiceTest is failed !!!",list.size() > 0);
     }
 

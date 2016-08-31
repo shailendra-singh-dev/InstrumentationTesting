@@ -43,9 +43,11 @@
         <activity android:name=".espresso.activities.CustomFailureHandler" />
         <activity android:name=".espresso.activities.WebViewActivity" />
         <activity android:name=".espresso.activities.StartedServiceActivity" />
+        <activity android:name=".espresso.activities.BoundServiceActivity" />
 
         <service android:name=".espresso.service.RepeatIntentService" />
         <service android:name=".espresso.service.StartedService" />
+        <service android:name=".espresso.service.BoundService" />
 
         <provider
             android:name=".espresso.content_provider.AppRecentSearchProvider"
