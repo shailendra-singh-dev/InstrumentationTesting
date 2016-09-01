@@ -31,7 +31,7 @@ public class EspresoHome extends AppCompatActivity {
         launchActivity(R.id.espresso_home_custom_failure, CustomFailureHandler.class);
         launchActivity(R.id.espresso_home_web_view, WebViewActivity.class);
         launchActivity(R.id.espresso_home_junit4_rules_started_service, StartedServiceActivity.class);
-        launchActivity(R.id.espresso_home_junit4_rules_bound_service, BoundServiceActivity.class);
+        launchActivity(R.id.espresso_home_intent, PickAndCallNumber.class);
     }
 
     private void launchActivity(final int buttonId, final Class cls) {

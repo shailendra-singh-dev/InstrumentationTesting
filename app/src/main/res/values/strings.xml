@@ -54,4 +54,11 @@
     <string name="action_started_service_update_list">Update List </string>
     <string name="espresso_home_junit4_rules_started_service">JUnit4 ServiceRule: Started Service</string>
     <string name="espresso_home_junit4_rules_bound_service">JUnit4 ServiceRule: Bound Service</string>
+    <string name="pick_number_hint">Type 10 digit number ..</string>
+    <string name="pick_number">Pick number</string>
+    <string name="call_number">Make a call to number</string>
+    <string name="espresso_home_intent">Intent stubbing and matching</string>
+    <string name="call_number_dialog_title">Confirmation Dialog</string>
+    <string name="call_number_dialog__message">This app requires permission to call number</string>
+    <string name="call_number_dialog_positive_button_text">OK</string>
 </resources>
