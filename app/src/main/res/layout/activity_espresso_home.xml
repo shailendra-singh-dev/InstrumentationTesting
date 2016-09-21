@@ -113,6 +113,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/espresso_home_intent" />
+
+        <Button
+            android:id="@+id/espresso_home_uiautomator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/espresso_home_uiautomator" />
+
     </LinearLayout>
 
 </ScrollView>

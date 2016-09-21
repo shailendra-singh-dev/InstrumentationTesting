@@ -98,11 +98,6 @@ public class CallNumberTest {
         // is never launched and result is stubbed.
         intending(hasComponent(hasShortClassName(".ViewNumber"))).respondWith(new Instrumentation.ActivityResult(AppCompatActivity.RESULT_OK,
                 ViewNumber.getResultIntent()));
-
         onView(withId(R.id.pick_number)).perform(click());
-
-        onView(withId(R.id.pick_number_hint)).check(matches(withText(VALID_PHONE_NUMBER)));
-
-
-    }
+        onView(withId(R.id.pick_number_hint)).check(matches(withText(VALID_PHONE_NUMBER)));    }
 }

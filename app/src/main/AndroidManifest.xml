@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.itexico.instrumentationtesting">
 
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EspressoTestTheme">
         <activity
-            android:name=".espresso.activities.EspresoHome"
+            android:name=".espresso.activities.ChangeText"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".espresso.activities.ChangeText" />
+        <!--<activity android:name=".espresso.activities.ChangeText" />-->
         <activity android:name=".espresso.activities.ShowText" />
         <activity android:name=".espresso.activities.SpinnerSelection" />
         <activity android:name=".espresso.activities.CustomList" />
