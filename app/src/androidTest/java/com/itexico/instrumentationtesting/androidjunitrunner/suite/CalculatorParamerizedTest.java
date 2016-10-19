@@ -30,13 +30,9 @@ public class CalculatorParamerizedTest {
     @Parameterized.Parameters
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {0, 0, 0},
+                {1, 0, 1},
                 {0, -1, -1},
-                {2, 2, 4},
-                {8, 8, 16},
-                {16, 16, 32},
-                {32, 0, 32},
-                {64, 64, 128}});
+                {2, 2, 0}});
     }
 
     private final double mOperandOne;
@@ -63,9 +59,9 @@ public class CalculatorParamerizedTest {
     }
 
     @Test
-    public void testAddTwoNumbers() {
-        double resultAdd = mCalculator.addition(mOperandOne, mOperandTwo);
-        assertThat(resultAdd, is(equalTo(mExpectedResult)));
+    public void testSubTwoNumbers() {
+        double resultSub = mCalculator.subtraction(mOperandOne, mOperandTwo);
+        assertThat(resultSub, is(equalTo(mExpectedResult)));
     }
 
 }

@@ -19,8 +19,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFro
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
-import static com.itexico.instrumentationtesting.espresso.utils.CustomMatchers.withEmployeeID;
-import static com.itexico.instrumentationtesting.espresso.utils.CustomMatchers.withEmployeeName;
+import static com.itexico.instrumentationtesting.espresso.custom_matcher.CustomMatchers.withEmployeeID;
+import static com.itexico.instrumentationtesting.espresso.custom_matcher.CustomMatchers.withEmployeeName;
 import static org.hamcrest.CoreMatchers.allOf;
 
 /**

@@ -63,5 +63,4 @@
     <string name="call_number_dialog_positive_button_text">OK</string>
     <string name="open_gallery">Open Gallery</string>
     <string name="espresso_home_intent_more">Intent Stubbing with Gallery</string>
-    <string name="espresso_home_uiautomator">UI Automator</string>
 </resources>
